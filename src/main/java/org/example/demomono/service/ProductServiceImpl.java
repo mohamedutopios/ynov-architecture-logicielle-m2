@@ -38,8 +38,10 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public Product addProduct(Product product) {
-        return null;
+    public ProductDTO addProduct(ProductDTO productDTO) {
+        Product product = DTOMapper.convertToDo(productDTO);
+       return DTOMapper.convertToDto(productRepository.save(product));
+
     }
 
     @Override
@@ -49,6 +51,9 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public void deleteProduct(Long id) {
-
+        Product product = productRepository.findById(id).orElse(null);
+        if(product != null) {
+            productRepository.delete(product);
+        }
     }
 }
