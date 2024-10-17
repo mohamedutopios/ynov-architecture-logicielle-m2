@@ -13,7 +13,7 @@ public class OrderDTO {
     private String orderNumber;
     private String formattedOrderDate;
     private Long productId;
-    private Product product;
+    private ProductDTO productDTO;
 
 
 }
