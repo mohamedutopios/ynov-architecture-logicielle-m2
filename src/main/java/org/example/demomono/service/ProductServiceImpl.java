@@ -9,8 +9,8 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service
-public class ProductServiceImpl implements ProductService {
+//@Service
+public class ProductServiceImpl  {
 
     private final ProductRepository productRepository;
 
@@ -18,7 +18,7 @@ public class ProductServiceImpl implements ProductService {
         this.productRepository = productRepository;
     }
 
-    @Override
+   // @Override
     public List<ProductDTO> getAllProducts() {
         return productRepository.findAll()
                 .stream()
@@ -26,7 +26,7 @@ public class ProductServiceImpl implements ProductService {
                 .toList();
     }
 
-    @Override
+   // @Override
     public ProductDTO getProductById(Long id) {
         Product product = productRepository
                 .findById(id)
@@ -34,13 +34,13 @@ public class ProductServiceImpl implements ProductService {
             return DTOMapper.convertToDto(product);
     }
 
-    @Override
+   // @Override
     public ProductDTO addProduct(ProductDTO productDTO) {
         Product product = DTOMapper.convertToDo(productDTO);
        return DTOMapper.convertToDto(productRepository.save(product));
     }
 
-    @Override
+   // @Override
     public ProductDTO updateProduct(ProductDTO productDTO) {
         Product product1 = productRepository.findById(productDTO.getId())
                 .orElseThrow(() -> new ResourceNotFoundException("Product not found"));
@@ -49,7 +49,7 @@ public class ProductServiceImpl implements ProductService {
             return DTOMapper.convertToDto(productRepository.save(product1));
     }
 
-    @Override
+   // @Override
     public void deleteProduct(Long id) {
         Product product = productRepository
                 .findById(id)
