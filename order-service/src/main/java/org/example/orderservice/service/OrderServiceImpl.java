@@ -1,7 +1,9 @@
 package org.example.orderservice.service;
 
 
+import org.example.orderservice.client.RestClient;
 import org.example.orderservice.dto.OrderDTO;
+import org.example.orderservice.dto.ProductDTO;
 import org.example.orderservice.exception.ResourceNotFoundException;
 import org.example.orderservice.model.Order;
 import org.example.orderservice.repository.OrderRepository;
@@ -19,20 +21,30 @@ public class OrderServiceImpl implements OrderService {
     @Autowired
     private OrderRepository orderRepository;
 
+    @Autowired
+    private RestClient restClient;
+
     @Override
     public List<OrderDTO> getAllOrders() {
         return orderRepository.
                 findAll()
                 .stream()
-                .map(DTOMapper::convertToDto)
+                .map(order -> {
+                    ProductDTO productDTO = restClient.getProduct(order.getProductId());
+                    return DTOMapper.convertToDto(order, productDTO);
+                })
                 .toList();
     }
 
     @Override
     public OrderDTO saveOrder(OrderDTO orderDTO) {
-        Product product = DTOMapper.convertToDo(productService.getProductById(orderDTO.getProductId()));
-        Order order = DTOMapper.convertToDo(orderDTO,product);
-        return DTOMapper.convertToDto(orderRepository.save(order));
+        ProductDTO productDTO = restClient.getProduct(orderDTO.getProductId());
+        if(productDTO == null) {
+            throw new ResourceNotFoundException("Product not found");
+        }
+        Order order = DTOMapper.convertToDo(orderDTO);
+        order.setProductId(productDTO.getId());
+        return DTOMapper.convertToDto(orderRepository.save(order), productDTO);
     }
 
     @Override

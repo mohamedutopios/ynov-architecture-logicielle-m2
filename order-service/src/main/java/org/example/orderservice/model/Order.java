@@ -19,12 +19,6 @@ public class Order {
     private Long id;
     private String orderNumber;
     private LocalDate orderDate;
-
-    @OneToOne
-    private Product product;
-
-
-
-
+    private Long productId;
 
 }
