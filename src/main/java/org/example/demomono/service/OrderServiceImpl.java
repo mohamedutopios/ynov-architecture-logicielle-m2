@@ -1,6 +1,12 @@
 package org.example.demomono.service;
 
+import org.example.demomono.dto.OrderDTO;
 import org.example.demomono.model.Order;
+import org.example.demomono.model.Product;
+import org.example.demomono.repository.OrderRepository;
+import org.example.demomono.repository.ProductRepository;
+import org.example.demomono.utils.DTOMapper;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -8,18 +14,32 @@ import java.util.List;
 @Service
 public class OrderServiceImpl implements OrderService {
 
+
+    @Autowired
+    private OrderRepository orderRepository;
+
+    @Autowired
+    private ProductService productService;
+
+
     @Override
-    public List<Order> getAllOrders() {
-        return List.of();
+    public List<OrderDTO> getAllOrders() {
+        return orderRepository.
+                findAll()
+                .stream()
+                .map(DTOMapper::convertToDto)
+                .toList();
     }
 
     @Override
-    public Order saveOrder(Order order) {
-        return null;
+    public OrderDTO saveOrder(OrderDTO orderDTO) {
+        Product product = DTOMapper.convertToDo(productService.getProductById(orderDTO.getProductId()));
+        Order order = DTOMapper.convertToDo(orderDTO,product);
+        return DTOMapper.convertToDto(orderRepository.save(order));
     }
 
     @Override
-    public Order getOrderById(Long id) {
+    public OrderDTO getOrderById(Long id) {
         return null;
     }
 
@@ -29,7 +49,7 @@ public class OrderServiceImpl implements OrderService {
     }
 
     @Override
-    public Order updateOrder(Long id, Order order) {
+    public OrderDTO updateOrder(Long id, OrderDTO order) {
         return null;
     }
 }

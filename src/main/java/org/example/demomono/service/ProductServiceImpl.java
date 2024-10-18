@@ -11,7 +11,6 @@ import java.util.List;
 @Service
 public class ProductServiceImpl implements ProductService {
 
-
     private final ProductRepository productRepository;
 
     public ProductServiceImpl(ProductRepository productRepository) {
@@ -45,7 +44,14 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public Product updateProduct(Product product) {
+    public ProductDTO updateProduct(ProductDTO productDTO) {
+        Product product1 = productRepository.findById(productDTO.getId()).orElse(null);
+        if(product1 != null) {
+            product1.setName(productDTO.getName());
+            product1.setPrice(productDTO.getPrice());
+            return DTOMapper.convertToDto(productRepository.save(product1));
+        }
+
         return null;
     }
 
