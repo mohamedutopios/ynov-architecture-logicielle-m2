@@ -1,7 +1,8 @@
 package org.example.orderservice.service;
 
-import org.example.demomono.dto.OrderDTO;
-import org.example.demomono.model.Order;
+
+
+import org.example.orderservice.dto.OrderDTO;
 
 import java.util.List;
 

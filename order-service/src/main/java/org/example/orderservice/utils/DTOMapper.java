@@ -1,8 +1,8 @@
 package org.example.orderservice.utils;
-import org.example.demomono.dto.OrderDTO;
-import org.example.demomono.dto.ProductDTO;
-import org.example.demomono.model.Order;
-import org.example.demomono.model.Product;
+
+
+import org.example.orderservice.dto.OrderDTO;
+import org.example.orderservice.model.Order;
 
 import java.time.LocalDate;
 

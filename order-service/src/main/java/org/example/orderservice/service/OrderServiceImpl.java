@@ -1,12 +1,11 @@
 package org.example.orderservice.service;
 
-import org.example.demomono.dto.OrderDTO;
-import org.example.demomono.exception.ResourceNotFoundException;
-import org.example.demomono.model.Order;
-import org.example.demomono.model.Product;
-import org.example.demomono.repository.OrderRepository;
-import org.example.demomono.repository.ProductRepository;
-import org.example.demomono.utils.DTOMapper;
+
+import org.example.orderservice.dto.OrderDTO;
+import org.example.orderservice.exception.ResourceNotFoundException;
+import org.example.orderservice.model.Order;
+import org.example.orderservice.repository.OrderRepository;
+import org.example.orderservice.utils.DTOMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -19,10 +18,6 @@ public class OrderServiceImpl implements OrderService {
 
     @Autowired
     private OrderRepository orderRepository;
-
-    @Autowired
-    private ProductService productService;
-
 
     @Override
     public List<OrderDTO> getAllOrders() {
