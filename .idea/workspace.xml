@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1ae519f8-f57a-4689-b008-abc01a8b27f4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/org/example/orderservice/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/org/example/orderservice/dto/OrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/org/example/orderservice/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/org/example/orderservice/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/org/example/orderservice/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/org/example/orderservice/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/org/example/orderservice/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/org/example/orderservice/service/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/org/example/orderservice/utils/DTOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/example/productservice/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/example/productservice/dto/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/example/productservice/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/example/productservice/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/example/productservice/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/example/productservice/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/example/productservice/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/example/productservice/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/org/example/productservice/utils/DTOMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../formation/java-secure/Secure-Coding-Practices-Java" beforeDir="false" afterPath="$PROJECT_DIR$/../formation/java-secure/Secure-Coding-Practices-Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../formation/java-secure/cesi-securite-applicative" beforeDir="false" afterPath="$PROJECT_DIR$/../formation/java-secure/cesi-securite-applicative" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../formation/java-secure/etude_cas/android.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../formation/java-secure/etude_cas/british.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../formation/java-secure/etude_cas/equifax.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../formation/java-secure/etude_cas/paypal.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../formation/java-secure/java_secure_code_verfi" beforeDir="false" afterPath="$PROJECT_DIR$/../formation/java-secure/java_secure_code_verfi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../formation/java-secure/test-2" beforeDir="false" afterPath="$PROJECT_DIR$/../formation/java-secure/test-2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../formation/java-secure/version4-protection-session" beforeDir="false" afterPath="$PROJECT_DIR$/../formation/java-secure/version4-protection-session" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2nbgcM04zGl2cS35uVccYDBrfud" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.ProductServiceApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/mohamedaijjou/Documents/ynov/product-service/src/main/java/org/example/productservice/utils",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/product-service/src/main/java/org/example/productservice/utils" />
+      <recent name="$PROJECT_DIR$/product-service/src/main/java/org/example/productservice/service" />
+      <recent name="$PROJECT_DIR$/product-service/src/main/java/org/example/productservice/repository" />
+      <recent name="$PROJECT_DIR$/product-service/src/main/java/org/example/productservice/model" />
+      <recent name="$PROJECT_DIR$/product-service/src/main/java/org/example/productservice/exception" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProductServiceApplication">
+    <configuration name="DemoMonoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="demo-mono" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.demomono.DemoMonoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.orderservice.OrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="product-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.productservice.ProductServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ae519f8-f57a-4689-b008-abc01a8b27f4" name="Changes" comment="" />
+      <created>1729247267443</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729247267443</updated>
+      <workItem from="1729247268488" duration="1547000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

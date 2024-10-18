@@ -58,19 +58,23 @@ public class OrderServiceImpl implements OrderService {
     public OrderDTO getOrderById(Long id) {
         Order order = orderRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("Order not found"));
-        return DTOMapper.convertToDto(order);
+        ProductDTO productDTO = restClient.getProduct(order.getProductId());
+        return DTOMapper.convertToDto(order, productDTO);
     }
 
     @Override
     public OrderDTO updateOrder(Long id, OrderDTO orderDTO) {
         Order order = orderRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("Order not found"));
+
+        ProductDTO productDTO = restClient.getProduct(order.getProductId());
+
+        if(productDTO == null) {
+            throw new ResourceNotFoundException("Product not found");
+        }
         order.setOrderNumber(orderDTO.getOrderNumber());
         order.setOrderDate(LocalDate.parse(orderDTO.getFormattedOrderDate()));
-
-        Product product = DTOMapper.convertToDo(productService.getProductById(orderDTO.getProductId()));
-        order.setProduct(product);
-
-        return DTOMapper.convertToDto(orderRepository.save(order));
+        order.setProductId(productDTO.getId());
+        return DTOMapper.convertToDto(orderRepository.save(order), productDTO);
     }
 }
