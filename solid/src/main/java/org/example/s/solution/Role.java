@@ -1,4 +1,4 @@
-package org.example.s.problem;
+package org.example.s.solution;
 
 public enum Role {
     ADMIN, MANAGER, DEVELOPER
