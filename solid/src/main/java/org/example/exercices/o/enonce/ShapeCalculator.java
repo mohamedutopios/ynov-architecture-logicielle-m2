@@ -1,4 +1,4 @@
-
+package org.example.exercices.o.enonce;
 /*
 
 Dans ce fichier, vous trouverez une violation du Principe Ouvert/Fermé (Open/Closed Principle). 
@@ -24,6 +24,8 @@ Note : Concentrez-vous sur la conception de solutions flexibles et extensibles q
 
 */
 
+import java.util.List;
+
 public class ShapeCalculator {
     public double calculateTotalArea(List<Shape> shapes) {
         double totalArea = 0;
@@ -35,14 +37,13 @@ public class ShapeCalculator {
                 Rectangle rectangle = (Rectangle) shape;
                 totalArea += rectangle.getWidth() * rectangle.getHeight();
             }
-            // Ajouter plus de conditions pour d'autres formes (par exemple, Triangle)
         }
         return totalArea;
     }
 }
 
 class Shape {
-    // Propriétés et méthodes communes à toutes les formes
+
 }
 
 class Circle extends Shape {
