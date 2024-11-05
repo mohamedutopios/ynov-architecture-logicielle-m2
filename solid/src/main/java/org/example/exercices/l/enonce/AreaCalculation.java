@@ -1,4 +1,4 @@
-/*
+package org.example.exercices.l.enonce;/*
 
 Dans ce fichier, vous trouverez une violation du Principe de Substitution de Liskov (Liskov Substitution Principle - LSP). 
 Vous devez refactoriser ce fichier. 
