@@ -74,7 +74,6 @@ public class Computer {
                 ", isBluetoothEnabled=" + isBluetoothEnabled +
                 '}';
     }
-
     public static class ComputerBuilder {
 
         // propriétés obligatoires
