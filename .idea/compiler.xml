@@ -11,6 +11,7 @@
         <module name="dry" />
         <module name="order-service" />
         <module name="solid" />
+        <module name="yagni" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

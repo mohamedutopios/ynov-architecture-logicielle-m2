@@ -19,6 +19,11 @@
       <change afterPath="$PROJECT_DIR$/../ingenico/java-demo/src/main/java/org/example/structure/Structure2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ingenico/java-demo/src/main/java/org/example/variables/Variable.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ingenico/java-demo/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yagni/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yagni/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yagni/src/main/java/org/example/YagniPrincipleProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yagni/src/main/java/org/example/YagniPrincipleSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yagni/src/test/java/org/example/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../formation/java-secure/Secure-Coding-Practices-Java" beforeDir="false" afterPath="$PROJECT_DIR$/../formation/java-secure/Secure-Coding-Practices-Java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../formation/java-secure/cesi-securite-applicative" beforeDir="false" afterPath="$PROJECT_DIR$/../formation/java-secure/cesi-securite-applicative" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../formation/java-secure/etude_cas/android.md" beforeDir="false" />
@@ -28,7 +33,7 @@
       <change beforePath="$PROJECT_DIR$/../formation/java-secure/java_secure_code_verfi" beforeDir="false" afterPath="$PROJECT_DIR$/../formation/java-secure/java_secure_code_verfi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../formation/java-secure/test-2" beforeDir="false" afterPath="$PROJECT_DIR$/../formation/java-secure/test-2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../formation/java-secure/version4-protection-session" beforeDir="false" afterPath="$PROJECT_DIR$/../formation/java-secure/version4-protection-session" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/Downloads/ynov-architecture-logicielle-m1/solid/src/main/java/org/example/tp/s/UserDataManager.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,7 +156,7 @@
       <workItem from="1730324585656" duration="341000" />
       <workItem from="1730797065739" duration="628000" />
       <workItem from="1730821405175" duration="206000" />
-      <workItem from="1730967686948" duration="3000000" />
+      <workItem from="1730967686948" duration="3318000" />
     </task>
     <servers />
   </component>
