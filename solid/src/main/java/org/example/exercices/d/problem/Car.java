@@ -1,4 +1,4 @@
-/*
+package org.example.exercices.d.problem;/*
 
 Dans ce fichier, vous trouverez une violation du Principe d'Inversion de Dépendance (Dependency Inversion Principle - DIP). 
 Vous devez refactoriser ce fichier. 

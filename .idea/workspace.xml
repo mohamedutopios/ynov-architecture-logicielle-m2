@@ -28,9 +28,9 @@
       <change beforePath="$PROJECT_DIR$/../formation/java-secure/java_secure_code_verfi" beforeDir="false" afterPath="$PROJECT_DIR$/../formation/java-secure/java_secure_code_verfi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../formation/java-secure/test-2" beforeDir="false" afterPath="$PROJECT_DIR$/../formation/java-secure/test-2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../formation/java-secure/version4-protection-session" beforeDir="false" afterPath="$PROJECT_DIR$/../formation/java-secure/version4-protection-session" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solid/src/main/java/org/example/exercices/d/problem/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/solid/src/main/java/org/example/exercices/d/problem/Car.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/Downloads/ynov-architecture-logicielle-m1/solid/src/main/java/org/example/tp/s/UserDataManager.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +151,7 @@
       <workItem from="1730324585656" duration="341000" />
       <workItem from="1730797065739" duration="628000" />
       <workItem from="1730821405175" duration="206000" />
+      <workItem from="1730967686948" duration="958000" />
     </task>
     <servers />
   </component>
