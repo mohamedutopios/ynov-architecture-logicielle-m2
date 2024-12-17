@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/discovery-service/discovery-service.iml" filepath="$PROJECT_DIR$/discovery-service/discovery-service.iml" />
+      <module fileurl="file://$USER_HOME$/Documents/ynov-architecture-logicielle-m1/micro-ynov-demo/loans-service/loans-service.iml" filepath="$USER_HOME$/Documents/ynov-architecture-logicielle-m1/micro-ynov-demo/loans-service/loans-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/micro-archi.iml" filepath="$PROJECT_DIR$/.idea/micro-archi.iml" />
     </modules>
   </component>
