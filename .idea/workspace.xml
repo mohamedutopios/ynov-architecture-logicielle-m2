@@ -5,37 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ae519f8-f57a-4689-b008-abc01a8b27f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ingenico/java-demo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ingenico/java-demo/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ingenico/java-demo/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ingenico/java-demo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ingenico/java-demo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ingenico/java-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ingenico/java-demo/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ingenico/java-demo/src/main/java/org/example/model/Maison.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ingenico/java-demo/src/main/java/org/example/operator/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ingenico/java-demo/src/main/java/org/example/readFromConsole/ReadFromConsole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ingenico/java-demo/src/main/java/org/example/structure/Structure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ingenico/java-demo/src/main/java/org/example/structure/Structure2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ingenico/java-demo/src/main/java/org/example/variables/Variable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ingenico/java-demo/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../formation/java-secure/Secure-Coding-Practices-Java" beforeDir="false" afterPath="$PROJECT_DIR$/../formation/java-secure/Secure-Coding-Practices-Java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../formation/java-secure/cesi-securite-applicative" beforeDir="false" afterPath="$PROJECT_DIR$/../formation/java-secure/cesi-securite-applicative" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../formation/java-secure/etude_cas/android.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../formation/java-secure/etude_cas/british.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../formation/java-secure/etude_cas/equifax.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../formation/java-secure/etude_cas/paypal.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../formation/java-secure/java_secure_code_verfi" beforeDir="false" afterPath="$PROJECT_DIR$/../formation/java-secure/java_secure_code_verfi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../formation/java-secure/test-2" beforeDir="false" afterPath="$PROJECT_DIR$/../formation/java-secure/test-2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../formation/java-secure/version4-protection-session" beforeDir="false" afterPath="$PROJECT_DIR$/../formation/java-secure/version4-protection-session" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/org/example/behavior/mediateur/ChatMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/org/example/behavior/mediateur/ChatRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/org/example/behavior/mediateur/ChatUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/org/example/behavior/mediateur/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/org/example/behavior/mediateur/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/org/example/structural/composite/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/org/example/structural/composite/Directory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/org/example/structural/composite/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/org/example/structural/composite/FileSystemElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/Downloads/ynov-architecture-logicielle-m1/solid/src/main/java/org/example/tp/s/UserDataManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattern/src/main/java/org/example/creation/tp/factory/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/src/main/java/org/example/creation/tp/factory/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattern/src/main/java/org/example/creation/tp/factory/exercice-pattern3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattern/src/main/java/org/example/creation/tp/singleton/exercice-pattern2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattern/src/main/java/org/example/structural/bridge/ConsoleDraw.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/src/main/java/org/example/structural/bridge/ConsoleDraw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattern/target/classes/org/example/behavior/strategy/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/target/classes/org/example/behavior/strategy/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattern/target/classes/org/example/creation/tp/factory/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/target/classes/org/example/creation/tp/factory/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattern/target/classes/org/example/structural/bridge/ConsoleDraw.class" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/target/classes/org/example/structural/bridge/ConsoleDraw.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -69,6 +56,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Demo.executor": "Run",
+    "Application.org.example.behavior.mediateur.Demo.executor": "Run",
+    "Application.org.example.structural.adapter.Demo.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Notification.DisplayName-DoNotAsk-Database detector": "Database detector",
     "Notification.DoNotAsk-Database detector": "true",
@@ -80,7 +70,7 @@
     "Spring Boot.OrderServiceApplication.executor": "Run",
     "Spring Boot.ProductServiceApplication.executor": "Run",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/mohamedaijjou/Documents/ynov",
+    "last_opened_file_path": "/Users/mohamedaijjou/Downloads/ynov-architecture-logicielle-m2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -111,7 +101,46 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderServiceApplication">
+  <component name="RunManager" selected="Application.org.example.behavior.mediateur.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.structural.composite.Demo" />
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.structural.composite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.behavior.mediateur.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.behavior.mediateur.Demo" />
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.behavior.mediateur.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.structural.adapter.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.structural.adapter.Demo" />
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.structural.adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoMonoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="demo-mono" />
@@ -136,6 +165,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.org.example.behavior.mediateur.Demo" />
+        <item itemvalue="Application.org.example.structural.adapter.Demo" />
+        <item itemvalue="Application.Demo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -158,6 +194,7 @@
       <workItem from="1730797065739" duration="628000" />
       <workItem from="1730821405175" duration="206000" />
       <workItem from="1730967686948" duration="4822000" />
+      <workItem from="1732280428550" duration="2771000" />
     </task>
     <servers />
   </component>

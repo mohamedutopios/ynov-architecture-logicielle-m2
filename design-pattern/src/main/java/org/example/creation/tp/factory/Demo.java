@@ -1,5 +1,7 @@
 package org.example.creation.tp.factory;
 
+import org.example.creation.tp.factory.CharacterFactory;
+
 public class Demo {
     public static void main(String[] args) {
         CharacterFactory factory = new CharacterFactory();

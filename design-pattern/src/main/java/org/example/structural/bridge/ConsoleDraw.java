@@ -1,6 +1,7 @@
 package org.example.structural.bridge;
 
 public class ConsoleDraw implements DrawApi{
+    
     @Override
     public void drawCircle(int x, int y, int radius) {
         System.out.println("Drawing Circle on Console" + x + "," + y + "," + radius);
