@@ -1,6 +1,7 @@
 package org.example.loansservice.service.impl;
 
 
+import org.example.loanservice.rest.AccountServiceClient;
 import org.example.loansservice.entity.Loan;
 import org.example.loansservice.repository.LoanRepository;
 import org.example.loansservice.service.LoanService;
@@ -15,6 +16,9 @@ public class LoanServiceImpl implements LoanService {
     @Autowired
     private LoanRepository loanRepository;
 
+    @Autowired
+    private AccountServiceClient accountServiceClient;
+
     public List<Loan> getAllLoans() {
         return loanRepository.findAll();
     }
@@ -28,7 +32,11 @@ public class LoanServiceImpl implements LoanService {
     }
 
     public Loan saveLoan(Loan loan) {
-        return loanRepository.save(loan);
+        if (accountServiceClient.accountExists(loan.getAccountId())) {
+            return loanRepository.save(loan);
+        } else {
+            throw new RuntimeException("Account does not exist");
+        }
     }
 
     public void deleteLoan(Long id) {

@@ -5,6 +5,7 @@ import org.example.cardservice.repository.CardRepository;
 import org.example.cardservice.service.CardService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.example.cardservice.rest.AccountServiceClient;
 
 import java.util.List;
 
@@ -13,6 +14,9 @@ public class CardServiceImpl implements CardService {
 
     @Autowired
     private CardRepository cardRepository;
+
+    @Autowired
+    private AccountServiceClient accountServiceClient;
 
     public List<Card> getAllCards() {
         return cardRepository.findAll();
@@ -27,7 +31,11 @@ public class CardServiceImpl implements CardService {
     }
 
     public Card saveCard(Card card) {
-        return cardRepository.save(card);
+        if (accountServiceClient.accountExists(card.getAccountId())) {
+            return cardRepository.save(card);
+        } else {
+            throw new IllegalArgumentException("Account does not exist");
+        }
     }
 
     public void deleteCard(Long id) {

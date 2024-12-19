@@ -2,9 +2,11 @@ package org.example.accountservice.controller;
 
 
 import org.example.accountservice.entity.Account;
+import org.example.accountservice.rest.ServiceClient;
 import org.example.accountservice.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import org.example.accountservice.dto.AccountDetailsDTO;
 
 import java.util.List;
 
@@ -31,6 +33,10 @@ public class AccountController {
         return accountService.saveAccount(account);
     }
 
+    @GetMapping("/{id}/details")
+    public AccountDetailsDTO getAccountDetails(@PathVariable Long id) {
+        return accountService.getAccountDetails(id);
+    }
     @DeleteMapping("/{id}")
     public void deleteAccount(@PathVariable Long id) {
         accountService.deleteAccount(id);
