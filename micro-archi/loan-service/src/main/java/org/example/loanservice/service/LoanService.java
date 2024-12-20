@@ -1,4 +1,4 @@
-package org.example.loansservice.service;
+package org.example.loanservice.service;
 
 import org.example.loansservice.entity.Loan;
 
@@ -14,4 +14,6 @@ public interface LoanService {
     public Loan saveLoan(Loan loan);
 
     public void deleteLoan(Long id);
+
+    public void deleteLoanByAccountId(Long id);
 }

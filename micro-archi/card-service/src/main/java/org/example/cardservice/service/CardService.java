@@ -14,4 +14,7 @@ public interface CardService {
     public Card saveCard(Card card) ;
 
     public void deleteCard(Long id) ;
+
+    public void deleteCardByAccountId(Long id);
+
 }

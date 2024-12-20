@@ -20,7 +20,8 @@ public class AccountKafkaProducer {
 
     public void sendAccountDeleteEvent(Long accountId){
         String event = String.format("{\"event\":\"ACCOUNT_DELETED\",\"accountId\":\"%s\"}", accountId);
-
+        logger.info("Producing account deleted event: {} ",event);
+        kafkaTemplate.send(topic,event);
     }
 
 
