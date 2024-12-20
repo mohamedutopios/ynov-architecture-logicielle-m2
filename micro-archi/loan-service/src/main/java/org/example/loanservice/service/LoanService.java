@@ -1,6 +1,8 @@
 package org.example.loanservice.service;
 
-import org.example.loansservice.entity.Loan;
+
+
+import org.example.loanservice.entity.Loan;
 
 import java.util.List;
 

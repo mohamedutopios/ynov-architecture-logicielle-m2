@@ -1,15 +1,15 @@
 package org.example.loanservice.service.impl;
 
-
+import org.example.loanservice.entity.Loan;
 import org.example.loanservice.repository.LoanRepository;
 import org.example.loanservice.rest.AccountServiceClient;
-import org.example.loansservice.entity.Loan;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.example.loanservice.service.LoanService;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -52,6 +52,7 @@ public class LoanServiceImpl implements LoanService {
     }
 
     @Override
+    @Transactional
     public void deleteLoanByAccountId(Long id) {
         logger.info("Deleting loan in service impl : " + id);
         loanRepository.deleteLoanByAccountId(id);

@@ -1,4 +1,4 @@
-package org.example.loansservice.entity;
+package org.example.loanservice.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

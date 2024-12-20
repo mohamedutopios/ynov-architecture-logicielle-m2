@@ -1,8 +1,7 @@
 package org.example.loanservice.controller;
 
+import org.example.loanservice.entity.Loan;
 import org.example.loanservice.service.LoanService;
-import org.example.loansservice.entity.Loan;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
